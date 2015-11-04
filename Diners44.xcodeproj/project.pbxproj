@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE1303F41BEA6F470025E78B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1303F31BEA6F470025E78B /* AppDelegate.swift */; };
+		BE1303F61BEA6F470025E78B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1303F51BEA6F470025E78B /* ViewController.swift */; };
+		BE1303F91BEA6F470025E78B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1303F71BEA6F470025E78B /* Main.storyboard */; };
+		BE1303FB1BEA6F470025E78B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE1303FA1BEA6F470025E78B /* Assets.xcassets */; };
+		BE1303FE1BEA6F470025E78B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1303FC1BEA6F470025E78B /* LaunchScreen.storyboard */; };
+		BE1304091BEA6F470025E78B /* Diners44Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1304081BEA6F470025E78B /* Diners44Tests.swift */; };
+		BE1304141BEA6F480025E78B /* Diners44UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1304131BEA6F480025E78B /* Diners44UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE1304051BEA6F470025E78B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE1303E81BEA6F470025E78B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE1303EF1BEA6F470025E78B;
+			remoteInfo = Diners44;
+		};
+		BE1304101BEA6F470025E78B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE1303E81BEA6F470025E78B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE1303EF1BEA6F470025E78B;
+			remoteInfo = Diners44;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE1303F01BEA6F470025E78B /* Diners44.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diners44.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1303F31BEA6F470025E78B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE1303F51BEA6F470025E78B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE1303F81BEA6F470025E78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE1303FA1BEA6F470025E78B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE1303FD1BEA6F470025E78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE1303FF1BEA6F470025E78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE1304041BEA6F470025E78B /* Diners44Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Diners44Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1304081BEA6F470025E78B /* Diners44Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diners44Tests.swift; sourceTree = "<group>"; };
+		BE13040A1BEA6F470025E78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE13040F1BEA6F470025E78B /* Diners44UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Diners44UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1304131BEA6F480025E78B /* Diners44UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diners44UITests.swift; sourceTree = "<group>"; };
+		BE1304151BEA6F480025E78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE1303ED1BEA6F470025E78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1304011BEA6F470025E78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE13040C1BEA6F470025E78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE1303E71BEA6F470025E78B = {
+			isa = PBXGroup;
+			children = (
+				BE1303F21BEA6F470025E78B /* Diners44 */,
+				BE1304071BEA6F470025E78B /* Diners44Tests */,
+				BE1304121BEA6F480025E78B /* Diners44UITests */,
+				BE1303F11BEA6F470025E78B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE1303F11BEA6F470025E78B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE1303F01BEA6F470025E78B /* Diners44.app */,
+				BE1304041BEA6F470025E78B /* Diners44Tests.xctest */,
+				BE13040F1BEA6F470025E78B /* Diners44UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE1303F21BEA6F470025E78B /* Diners44 */ = {
+			isa = PBXGroup;
+			children = (
+				BE1303F31BEA6F470025E78B /* AppDelegate.swift */,
+				BE1303F51BEA6F470025E78B /* ViewController.swift */,
+				BE1303F71BEA6F470025E78B /* Main.storyboard */,
+				BE1303FA1BEA6F470025E78B /* Assets.xcassets */,
+				BE1303FC1BEA6F470025E78B /* LaunchScreen.storyboard */,
+				BE1303FF1BEA6F470025E78B /* Info.plist */,
+			);
+			path = Diners44;
+			sourceTree = "<group>";
+		};
+		BE1304071BEA6F470025E78B /* Diners44Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BE1304081BEA6F470025E78B /* Diners44Tests.swift */,
+				BE13040A1BEA6F470025E78B /* Info.plist */,
+			);
+			path = Diners44Tests;
+			sourceTree = "<group>";
+		};
+		BE1304121BEA6F480025E78B /* Diners44UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE1304131BEA6F480025E78B /* Diners44UITests.swift */,
+				BE1304151BEA6F480025E78B /* Info.plist */,
+			);
+			path = Diners44UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE1303EF1BEA6F470025E78B /* Diners44 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1304181BEA6F480025E78B /* Build configuration list for PBXNativeTarget "Diners44" */;
+			buildPhases = (
+				BE1303EC1BEA6F470025E78B /* Sources */,
+				BE1303ED1BEA6F470025E78B /* Frameworks */,
+				BE1303EE1BEA6F470025E78B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diners44;
+			productName = Diners44;
+			productReference = BE1303F01BEA6F470025E78B /* Diners44.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE1304031BEA6F470025E78B /* Diners44Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE13041B1BEA6F480025E78B /* Build configuration list for PBXNativeTarget "Diners44Tests" */;
+			buildPhases = (
+				BE1304001BEA6F470025E78B /* Sources */,
+				BE1304011BEA6F470025E78B /* Frameworks */,
+				BE1304021BEA6F470025E78B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE1304061BEA6F470025E78B /* PBXTargetDependency */,
+			);
+			name = Diners44Tests;
+			productName = Diners44Tests;
+			productReference = BE1304041BEA6F470025E78B /* Diners44Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE13040E1BEA6F470025E78B /* Diners44UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE13041E1BEA6F480025E78B /* Build configuration list for PBXNativeTarget "Diners44UITests" */;
+			buildPhases = (
+				BE13040B1BEA6F470025E78B /* Sources */,
+				BE13040C1BEA6F470025E78B /* Frameworks */,
+				BE13040D1BEA6F470025E78B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE1304111BEA6F470025E78B /* PBXTargetDependency */,
+			);
+			name = Diners44UITests;
+			productName = Diners44UITests;
+			productReference = BE13040F1BEA6F470025E78B /* Diners44UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE1303E81BEA6F470025E78B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Antoine DAUGUET";
+				TargetAttributes = {
+					BE1303EF1BEA6F470025E78B = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					BE1304031BEA6F470025E78B = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BE1303EF1BEA6F470025E78B;
+					};
+					BE13040E1BEA6F470025E78B = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BE1303EF1BEA6F470025E78B;
+					};
+				};
+			};
+			buildConfigurationList = BE1303EB1BEA6F470025E78B /* Build configuration list for PBXProject "Diners44" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE1303E71BEA6F470025E78B;
+			productRefGroup = BE1303F11BEA6F470025E78B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE1303EF1BEA6F470025E78B /* Diners44 */,
+				BE1304031BEA6F470025E78B /* Diners44Tests */,
+				BE13040E1BEA6F470025E78B /* Diners44UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE1303EE1BEA6F470025E78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1303FE1BEA6F470025E78B /* LaunchScreen.storyboard in Resources */,
+				BE1303FB1BEA6F470025E78B /* Assets.xcassets in Resources */,
+				BE1303F91BEA6F470025E78B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1304021BEA6F470025E78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE13040D1BEA6F470025E78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE1303EC1BEA6F470025E78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1303F61BEA6F470025E78B /* ViewController.swift in Sources */,
+				BE1303F41BEA6F470025E78B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1304001BEA6F470025E78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1304091BEA6F470025E78B /* Diners44Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE13040B1BEA6F470025E78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1304141BEA6F480025E78B /* Diners44UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE1304061BEA6F470025E78B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE1303EF1BEA6F470025E78B /* Diners44 */;
+			targetProxy = BE1304051BEA6F470025E78B /* PBXContainerItemProxy */;
+		};
+		BE1304111BEA6F470025E78B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE1303EF1BEA6F470025E78B /* Diners44 */;
+			targetProxy = BE1304101BEA6F470025E78B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE1303F71BEA6F470025E78B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1303F81BEA6F470025E78B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE1303FC1BEA6F470025E78B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1303FD1BEA6F470025E78B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE1304161BEA6F480025E78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE1304171BEA6F480025E78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE1304191BEA6F480025E78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Diners44/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adauguet.Diners44;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE13041A1BEA6F480025E78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Diners44/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adauguet.Diners44;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE13041C1BEA6F480025E78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Diners44Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adauguet.Diners44Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diners44.app/Diners44";
+			};
+			name = Debug;
+		};
+		BE13041D1BEA6F480025E78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Diners44Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adauguet.Diners44Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diners44.app/Diners44";
+			};
+			name = Release;
+		};
+		BE13041F1BEA6F480025E78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Diners44UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adauguet.Diners44UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Diners44;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BE1304201BEA6F480025E78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Diners44UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adauguet.Diners44UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Diners44;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE1303EB1BEA6F470025E78B /* Build configuration list for PBXProject "Diners44" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1304161BEA6F480025E78B /* Debug */,
+				BE1304171BEA6F480025E78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1304181BEA6F480025E78B /* Build configuration list for PBXNativeTarget "Diners44" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1304191BEA6F480025E78B /* Debug */,
+				BE13041A1BEA6F480025E78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE13041B1BEA6F480025E78B /* Build configuration list for PBXNativeTarget "Diners44Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE13041C1BEA6F480025E78B /* Debug */,
+				BE13041D1BEA6F480025E78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE13041E1BEA6F480025E78B /* Build configuration list for PBXNativeTarget "Diners44UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE13041F1BEA6F480025E78B /* Debug */,
+				BE1304201BEA6F480025E78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE1303E81BEA6F470025E78B /* Project object */;
+}
