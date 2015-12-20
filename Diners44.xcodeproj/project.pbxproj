@@ -14,6 +14,16 @@
 		BE1303FE1BEA6F470025E78B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1303FC1BEA6F470025E78B /* LaunchScreen.storyboard */; };
 		BE1304091BEA6F470025E78B /* Diners44Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1304081BEA6F470025E78B /* Diners44Tests.swift */; };
 		BE1304141BEA6F480025E78B /* Diners44UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1304131BEA6F480025E78B /* Diners44UITests.swift */; };
+		BE1304221BEA6FFE0025E78B /* Binome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1304211BEA6FFE0025E78B /* Binome.swift */; };
+		BE1304241BEA71490025E78B /* Diner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1304231BEA71490025E78B /* Diner.swift */; };
+		BE2E4B061BF288CF005B6906 /* CritereRencontreImpossible.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2E4B051BF288CF005B6906 /* CritereRencontreImpossible.swift */; };
+		BEA9DB271BEBF20900C82FC1 /* Critere.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9DB261BEBF20900C82FC1 /* Critere.swift */; };
+		BEA9DB291BEBF36000C82FC1 /* CritereRencontreUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9DB281BEBF36000C82FC1 /* CritereRencontreUnique.swift */; };
+		BEA9DB2B1BEBF36B00C82FC1 /* CritereMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9DB2A1BEBF36B00C82FC1 /* CritereMenu.swift */; };
+		BEC05D541BEAA9EA00246B33 /* Soiree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC05D531BEAA9EA00246B33 /* Soiree.swift */; };
+		BEC05D561BEAA9F100246B33 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC05D551BEAA9F100246B33 /* Solution.swift */; };
+		BEFC26461BECF4C500A6F2B3 /* SetExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFC26451BECF4C500A6F2B3 /* SetExtensions.swift */; };
+		BEFC26481BECF4EA00A6F2B3 /* ArrayExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFC26471BECF4EA00A6F2B3 /* ArrayExtentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		BE13040F1BEA6F470025E78B /* Diners44UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Diners44UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1304131BEA6F480025E78B /* Diners44UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diners44UITests.swift; sourceTree = "<group>"; };
 		BE1304151BEA6F480025E78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE1304211BEA6FFE0025E78B /* Binome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Binome.swift; sourceTree = "<group>"; };
+		BE1304231BEA71490025E78B /* Diner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diner.swift; sourceTree = "<group>"; };
+		BE2E4B051BF288CF005B6906 /* CritereRencontreImpossible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CritereRencontreImpossible.swift; sourceTree = "<group>"; };
+		BEA9DB261BEBF20900C82FC1 /* Critere.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Critere.swift; sourceTree = "<group>"; };
+		BEA9DB281BEBF36000C82FC1 /* CritereRencontreUnique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CritereRencontreUnique.swift; sourceTree = "<group>"; };
+		BEA9DB2A1BEBF36B00C82FC1 /* CritereMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CritereMenu.swift; sourceTree = "<group>"; };
+		BEC05D531BEAA9EA00246B33 /* Soiree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soiree.swift; sourceTree = "<group>"; };
+		BEC05D551BEAA9F100246B33 /* Solution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		BEFC26451BECF4C500A6F2B3 /* SetExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetExtensions.swift; sourceTree = "<group>"; };
+		BEFC26471BECF4EA00A6F2B3 /* ArrayExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtentions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +117,21 @@
 		BE1303F21BEA6F470025E78B /* Diners44 */ = {
 			isa = PBXGroup;
 			children = (
+				BEFC26491BED52DD00A6F2B3 /* Extensions */,
 				BE1303F31BEA6F470025E78B /* AppDelegate.swift */,
 				BE1303F51BEA6F470025E78B /* ViewController.swift */,
 				BE1303F71BEA6F470025E78B /* Main.storyboard */,
 				BE1303FA1BEA6F470025E78B /* Assets.xcassets */,
 				BE1303FC1BEA6F470025E78B /* LaunchScreen.storyboard */,
 				BE1303FF1BEA6F470025E78B /* Info.plist */,
+				BE1304211BEA6FFE0025E78B /* Binome.swift */,
+				BEC05D531BEAA9EA00246B33 /* Soiree.swift */,
+				BEC05D551BEAA9F100246B33 /* Solution.swift */,
+				BEA9DB261BEBF20900C82FC1 /* Critere.swift */,
+				BE2E4B051BF288CF005B6906 /* CritereRencontreImpossible.swift */,
+				BEA9DB281BEBF36000C82FC1 /* CritereRencontreUnique.swift */,
+				BEA9DB2A1BEBF36B00C82FC1 /* CritereMenu.swift */,
+				BE1304231BEA71490025E78B /* Diner.swift */,
 			);
 			path = Diners44;
 			sourceTree = "<group>";
@@ -123,6 +152,15 @@
 				BE1304151BEA6F480025E78B /* Info.plist */,
 			);
 			path = Diners44UITests;
+			sourceTree = "<group>";
+		};
+		BEFC26491BED52DD00A6F2B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BEFC26451BECF4C500A6F2B3 /* SetExtensions.swift */,
+				BEFC26471BECF4EA00A6F2B3 /* ArrayExtentions.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +294,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEFC26481BECF4EA00A6F2B3 /* ArrayExtentions.swift in Sources */,
+				BE1304241BEA71490025E78B /* Diner.swift in Sources */,
+				BE1304221BEA6FFE0025E78B /* Binome.swift in Sources */,
+				BEC05D561BEAA9F100246B33 /* Solution.swift in Sources */,
 				BE1303F61BEA6F470025E78B /* ViewController.swift in Sources */,
+				BEA9DB291BEBF36000C82FC1 /* CritereRencontreUnique.swift in Sources */,
+				BEA9DB2B1BEBF36B00C82FC1 /* CritereMenu.swift in Sources */,
+				BEFC26461BECF4C500A6F2B3 /* SetExtensions.swift in Sources */,
+				BEA9DB271BEBF20900C82FC1 /* Critere.swift in Sources */,
 				BE1303F41BEA6F470025E78B /* AppDelegate.swift in Sources */,
+				BE2E4B061BF288CF005B6906 /* CritereRencontreImpossible.swift in Sources */,
+				BEC05D541BEAA9EA00246B33 /* Soiree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +530,7 @@
 				BE13041A1BEA6F480025E78B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE13041B1BEA6F480025E78B /* Build configuration list for PBXNativeTarget "Diners44Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +539,7 @@
 				BE13041D1BEA6F480025E78B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE13041E1BEA6F480025E78B /* Build configuration list for PBXNativeTarget "Diners44UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +548,7 @@
 				BE1304201BEA6F480025E78B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
