@@ -14,17 +14,18 @@ class Soiree: Hashable {
     var index1, index2: Int?
     
     // Initialise une nouvelle soirée avec un set de binômes, en ajoutant les binômes nécessaires
-    init(var binomes : Set<Binome>) {
+    init(binomes : Set<Binome>) {
+        var binomes = binomes
         diners.insert(Diner())
         repeat {
-            let binome = binomes.randomElement()
+            let binome = binomes.random()
             ajouterBinome(binome)
             binomes.remove(binome)
         } while binomes.count > 0
     }
     
     // Ajoute un binôme à la soirée en créant un nouveau dîner si nécessaire
-    func ajouterBinome(binome : Binome) {
+    func ajouterBinome(_ binome : Binome) {
         for diner in diners {
             if diner.binomes.count < nombreDeBinomesParDiner {
                 diner.binomes.append(binome)
@@ -38,8 +39,8 @@ class Soiree: Hashable {
     // Permute deux binômes choisis aléatoirement
     func permuterBinomesAleatoires() {
         repeat {
-            diner1 = diners.randomElement()
-            diner2 = diners.randomElement()
+            diner1 = diners.random()
+            diner2 = diners.random()
             index1 = Int(arc4random_uniform(UInt32(diner1!.binomes.count)))
             index2 = Int(arc4random_uniform(UInt32(diner2!.binomes.count)))
         } while diner1!.binomes[index1!] == diner2!.binomes[index2!]
@@ -48,7 +49,7 @@ class Soiree: Hashable {
     
     // Remet les deux binômes préalablement permutés à la place
     func remettreBinomes() {
-        if let diner1 = diner1, diner2 = diner2, index1 = index1, index2 = index2 {
+        if let diner1 = diner1, let diner2 = diner2, let index1 = index1, let index2 = index2 {
             swap(&diner1.binomes[index1], &diner2.binomes[index2])
         }
         diner1 = nil
@@ -58,7 +59,7 @@ class Soiree: Hashable {
     }
     
     // Renvoie le dîner d'un binôme
-    func chercheDiner(binome: Binome) -> Diner? {
+    func chercheDiner(_ binome: Binome) -> Diner? {
         for diner in diners {
             if diner.binomes.contains(binome) {
                 return diner

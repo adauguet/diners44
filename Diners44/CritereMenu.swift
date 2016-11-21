@@ -11,7 +11,7 @@ import Foundation
 class CritereMenu : Critere {
     
     // Renvoie le nombre total de places doubles
-    func nombreTotalDeConflits(solution: Solution) -> Int {
+    func nombreTotalDeConflits(_ solution: Solution) -> Int {
         var nombreTotalDeConflits = Int()
         for binome in solution.binomes {
             nombreTotalDeConflits += nombreDeConflits(solution, binome: binome)
@@ -20,13 +20,13 @@ class CritereMenu : Critere {
     }
     
     // Renvoie le nombre de places doubles pour un binôme donné
-    func nombreDeConflits(solution: Solution, binome: Binome) -> Int {
+    func nombreDeConflits(_ solution: Solution, binome: Binome) -> Int {
         var indexes = Set<Int>()
         for soiree in solution.soirees {
             for diner in soiree.diners {
                 for binomeCourant in diner.binomes {
                     if (binomeCourant == binome) {
-                        indexes.insert(diner.binomes.indexOf(binome)!)
+                        indexes.insert(diner.binomes.index(of: binome)!)
                     }
                 }
             }

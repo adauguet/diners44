@@ -11,6 +11,6 @@ import Foundation
 protocol Critere {
     
     // Renvoie le nombre total de conflit selon un critère donné
-    func nombreTotalDeConflits(solution: Solution) -> Int
+    func nombreTotalDeConflits(_ solution: Solution) -> Int
     
 }

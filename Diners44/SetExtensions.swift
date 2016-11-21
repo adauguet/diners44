@@ -9,7 +9,8 @@
 import Foundation
 
 extension Set {
-    func randomElement() -> Element {
-        return self[startIndex.advancedBy(Int(arc4random_uniform(UInt32(count))))]
+    
+    func random() -> Element {
+        return self[self.index(self.startIndex, offsetBy: Int(arc4random_uniform(UInt32(count))))]
     }
 }

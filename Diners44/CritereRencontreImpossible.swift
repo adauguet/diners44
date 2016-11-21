@@ -60,7 +60,7 @@ class CritereRencontreImpossible {
     }
     
     // Renvoie le nombre total rencontres impossibles
-    func nombreTotalDeConflits(solution: Solution) -> Int {
+    func nombreTotalDeConflits(_ solution: Solution) -> Int {
         
         var nombreTotalDeConflits = 0
         for soiree in solution.soirees {
@@ -70,8 +70,8 @@ class CritereRencontreImpossible {
                     binomesDiner.insert(binome)
                 }
                 for duo in duosImpossibles {
-                    if (duo.isSubsetOf(binomesDiner)) {
-                        nombreTotalDeConflits++
+                    if (duo.isSubset(of: binomesDiner)) {
+                        nombreTotalDeConflits += 1
                     }
                 }
             }

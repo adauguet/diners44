@@ -9,7 +9,7 @@
 import Foundation
 
 class Binome: Hashable, CustomStringConvertible {
-    private let numero: Int
+    fileprivate let numero: Int
     
     init (numero: Int) {
         self.numero = numero

@@ -33,7 +33,7 @@ class Solution {
     }
     
     // Renvoie la liste des binômes rencontrés pour un binôme donné
-    func binomesRencontres(binome: Binome) -> Set<Binome> {
+    func binomesRencontres(_ binome: Binome) -> Set<Binome> {
         var binomesRencontres = Set<Binome>()
         for soiree in soirees {
             if let diner: Diner = soiree.chercheDiner(binome) {

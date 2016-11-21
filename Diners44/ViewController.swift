@@ -76,7 +76,7 @@ class ViewController: UIViewController {
                 print(apres, count)
             }
             
-            count++
+            count += 1
             
         } while count < 1000000 && apres > 0
         
