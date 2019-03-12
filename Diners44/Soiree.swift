@@ -10,8 +10,8 @@ import Foundation
 
 class Soiree: Hashable {
     var diners = Set<Diner>()
-    var diner1, diner2: Diner?
-    var index1, index2: Int?
+    var diner1, diner2: Diner!
+    var index1, index2: Int!
     
     // Initialise une nouvelle soirée avec un set de binômes, en ajoutant les binômes nécessaires
     init(binomes : Set<Binome>) {
@@ -43,8 +43,9 @@ class Soiree: Hashable {
             diner2 = diners.random()
             index1 = Int(arc4random_uniform(UInt32(diner1!.binomes.count)))
             index2 = Int(arc4random_uniform(UInt32(diner2!.binomes.count)))
-        } while diner1!.binomes[index1!] == diner2!.binomes[index2!]
-        swap(&diner1!.binomes[index1!], &diner2!.binomes[index2!])
+        } while diner1.binomes[index1] == diner2.binomes[index2] || diner1 == diner2
+        
+        swap(&diner1.binomes[index1], &diner2.binomes[index2])
     }
     
     // Remet les deux binômes préalablement permutés à la place

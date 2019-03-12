@@ -11,7 +11,7 @@ import Foundation
 class Binome: Hashable, CustomStringConvertible {
     fileprivate let numero: Int
     
-    init (numero: Int) {
+    init(numero: Int) {
         self.numero = numero
     }
     

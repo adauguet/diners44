@@ -8,7 +8,7 @@
 
 import UIKit
 
-let nombreDeBinomes = 36
+let nombreDeBinomes = 60
 
 class ViewController: UIViewController {
     
@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         let solution = Solution(binomes: binomes)
         solution.soirees.append(Soiree(binomes: binomes))
         
+        var count = 0
+        
         // Première étape d'optimisation : création des soirées
         repeat {
             solution.soirees.append(Soiree(binomes: binomes))
@@ -31,6 +33,7 @@ class ViewController: UIViewController {
             var apres: Int
             
             repeat {
+                count += 1
                 
                 // Evaluation de la solution selon les critères de renconte unique et de menu
                 avant = solution.nombreTotalDeConflits()
@@ -45,7 +48,7 @@ class ViewController: UIViewController {
                 case apres > avant:
                     solution.soirees[solution.soirees.count - 1].remettreBinomes()
                 case apres < avant:
-                    print(apres)
+                    print(apres, count)
                 default:
                     break
                 }
@@ -56,7 +59,7 @@ class ViewController: UIViewController {
         
         print(solution.description)
         
-        var count = 0
+        count = 0
         var avant = Int()
         var apres = Int()
         

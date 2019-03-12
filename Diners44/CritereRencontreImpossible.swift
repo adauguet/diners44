@@ -15,48 +15,90 @@ class CritereRencontreImpossible {
     init() {
         
         // Edition 2014-2015
-        self.duosImpossibles.insert([Binome(numero: 3), Binome(numero: 6)])
-        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [6, 23, 34]).rencontres())
-        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [1, 5, 14]).rencontres())
-        self.duosImpossibles.insert([Binome(numero: 27), Binome(numero: 26)])
-        self.duosImpossibles.insert([Binome(numero: 11), Binome(numero: 20)])
-        self.duosImpossibles.insert([Binome(numero: 31), Binome(numero: 18)])
-        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [12, 30, 29]).rencontres())
-        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [13, 9, 22]).rencontres())
-        self.duosImpossibles.insert([Binome(numero: 19), Binome(numero: 28)])
-        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [17, 24, 2, 7]).rencontres())
-        self.duosImpossibles.insert([Binome(numero: 8), Binome(numero: 4)])
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [37, 35, 19]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [24, 22, 21, 27]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [2, 15, 29]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [12, 1, 36]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [23, 11]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [8, 4, 6]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [20, 34]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [16, 9, 14]).rencontres())
+//
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [35, 22, 2]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [37, 20, 4]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [36, 27, 16, 8]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [21, 14]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [34, 15, 23, 24]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [11, 29, 9, 1]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [6, 12]).rencontres())
+//
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [27, 34, 1]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [4, 16, 15]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [8, 21, 9]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [6, 11, 37, 22]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [29, 24, 14, 35]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [19, 23, 2, 12]).rencontres())
+//
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [35, 23]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [22, 12, 16]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [1, 19, 8, 20]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [9, 2, 6, 36]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [15, 27, 37]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [29, 21]).rencontres())
+//        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [14, 4, 11, 34]).rencontres())
         
-        self.duosImpossibles.insert([Binome(numero: 20), Binome(numero: 23)])
-        self.duosImpossibles.insert([Binome(numero: 18), Binome(numero: 1)])
-        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [29, 27, 11]).rencontres())
-        self.duosImpossibles.insert([Binome(numero: 31), Binome(numero: 30)])
-        self.duosImpossibles.insert([Binome(numero: 12), Binome(numero: 22)])
-        self.duosImpossibles.insert([Binome(numero: 9), Binome(numero: 7)])
-        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [4, 13, 28, 2]).rencontres())
-        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [6, 19, 24, 8]).rencontres())
-        self.duosImpossibles.insert([Binome(numero: 14), Binome(numero: 17)])
-        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [26, 34, 5]).rencontres())
-
-        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [26, 23, 12]).rencontres())
-        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [30, 20, 1, 9]).rencontres())
-        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [22, 18, 27, 28]).rencontres())
-        self.duosImpossibles.insert([Binome(numero: 29), Binome(numero: 24)])
-        self.duosImpossibles.insert([Binome(numero: 8), Binome(numero: 34)])
-        self.duosImpossibles.insert([Binome(numero: 7), Binome(numero: 13)])
-        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [5, 4, 19]).rencontres())
-        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [6, 17, 11]).rencontres())
-        self.duosImpossibles.insert([Binome(numero: 14), Binome(numero: 31)])
-        
-        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [11, 30, 14, 23]).rencontres())
-        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [31, 22, 26, 1]).rencontres())
-        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [12, 20, 27]).rencontres())
-        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [9, 2, 18]).rencontres())
-        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [28, 8, 29]).rencontres())
-        self.duosImpossibles.insert([Binome(numero: 5), Binome(numero: 13)])
-        self.duosImpossibles = self.duosImpossibles.union(Diner(numeros: [34, 7, 19]).rencontres())
-        self.duosImpossibles.insert([Binome(numero: 4), Binome(numero: 17)])
-
+        // Edition 2017-2018
+        let edition20172018 = [
+            [14, 41, 23],
+            [54, 7, 39, 48],
+            [27, 52],
+            [40, 32, 17],
+            [34, 44, 25],
+            [47, 31, 42],
+            [3, 49, 48],
+            [57, 18, 36],
+            [6, 22, 53, 37],
+            [51, 26],
+            
+            [42, 27, 57, 54],
+            [15, 41, 34],
+            [25, 26, 47],
+            [39, 17, 6, 3],
+            [53, 48, 18],
+            [44, 32],
+            [37, 14, 51, 31],
+            [23, 22],
+            [49, 52, 7],
+            [40, 36],
+            
+            [25, 15, 32],
+            [22, 54],
+            [7, 37, 17],
+            [48, 44],
+            [26, 36, 52, 41],
+            [34, 47, 6],
+            [48, 14, 57],
+            [53, 42, 49],
+            [23, 3, 51],
+            [31, 40],
+            [27, 18, 39],
+            
+            [52, 54, 34],
+            [41, 51, 40, 22],
+            [15, 31, 26],
+            [32, 48, 37, 27],
+            [36, 48, 42],
+            [17, 49, 25, 23],
+            [57, 53],
+            [18, 47, 3],
+            [44, 39],
+            [6, 14],
+            ]
+        self.duosImpossibles = edition20172018
+            .map(Diner.init)
+            .map({ $0.rencontres() })
+            .flatMap({ $0 })
+            .apply(Set.init)
     }
     
     // Renvoie le nombre total rencontres impossibles
@@ -77,5 +119,11 @@ class CritereRencontreImpossible {
             }
         }
         return nombreTotalDeConflits
+    }
+}
+
+extension Array {
+    func apply<T>(_ block: ([Element]) -> T) -> T {
+        return block(self)
     }
 }
